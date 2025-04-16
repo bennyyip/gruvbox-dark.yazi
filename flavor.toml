@@ -36,17 +36,24 @@ border_style = { fg = "#665c54" }
 
 # : }}}
 
+# : Mode {{{
+
+[mode]
+normal_main = { fg = "#282828", bg = "#a89984", bold = true }
+normal_alt = { fg = "#a89984", bg = "#504945" }
+select_main = { fg = "#282828", bg = "#fe8019", bold = true }
+select_alt = { fg = "#a89984", bg = "#504945" }
+unset_main = { fg = "#282828", bg = "#b8bb26", bold = true }
+unset_alt = { fg = "#a89984", bg = "#504945" }
+
+# : }}}
+
 # : Status {{{
 
 [status]
-separator_open = "\ue0be"
-separator_close = "\ue0b8"
-separator_style = { fg = "#3c3836", bg = "#3c3836" }
-
-# Mode
-mode_normal = { fg = "#282828", bg = "#a89984", bold = true }
-mode_select = { fg = "#282828", bg = "#fe8019", bold = true }
-mode_unset = { fg = "#282828", bg = "#b8bb26", bold = true }
+sep_left = { open = "\ue0be", close = "\ue0b8" }
+sep_right = { open = "\ue0be", close = "\ue0b8" }
+overall = { }
 
 # Progress
 progress_label = { fg = "#ebdbb2", bold = true }
@@ -54,17 +61,17 @@ progress_normal = { fg = "#504945", bg = "#3c3836" }
 progress_error = { fg = "#fb4934", bg = "#3c3836" }
 
 # Permissions
-permissions_t = { fg = "#504945" }
-permissions_r = { fg = "#b8bb26" }
-permissions_w = { fg = "#fb4934" }
-permissions_x = { fg = "#b8bb26" }
-permissions_s = { fg = "#665c54" }
+perm_type = { fg = "#504945" }
+perm_read = { fg = "#b8bb26" }
+perm_write = { fg = "#fb4934" }
+perm_exec = { fg = "#b8bb26" }
+perm_sep = { fg = "#665c54" }
 
 # : }}}
 
 # : Select {{{
 
-[select]
+[pick]
 border = { fg = "#458588" }
 active = { fg = "#d3869b", bold = true }
 inactive = {}
