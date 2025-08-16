@@ -151,3 +151,17 @@ rules = [
 ]
 
 # : }}}
+
+# : Confirmation {{{
+
+[confirm]
+border = { fg = "#a89984" }
+title = { fg = "#83a598" }
+content = { fg = "#fbf1c7" }
+body = { fg = "red" }
+list = { fg = "#ebdbb2" }
+btn_yes = { reversed = true, fg = "#ebdbb2" }
+btn_no = {}
+btn_labels = [ "  [Y]es  ", "  (N)o  " ]
+
+# : }}}
