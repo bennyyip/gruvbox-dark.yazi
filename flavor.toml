@@ -169,8 +169,8 @@ btn_labels = [ "  [Y]es  ", "  (N)o  " ]
 # : Completion {{{
 
 [cmp]
-border   = { fg = "#a89984" }
-active   = { reversed = true, fg = "#83a598" }
+border = { fg = "#a89984" }
+active = { reversed = true, fg = "#83a598" }
 inactive = { fg = "#ebdbb2" }
 
 # : }}}
