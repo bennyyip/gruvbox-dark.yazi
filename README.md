@@ -13,7 +13,7 @@
 ## 🎨 Installation
 
 ```bash
-ya pack -a bennyyip/gruvbox-dark
+ya pkg add bennyyip/gruvbox-dark
 ```
 
 ## ⚙️ Usage
