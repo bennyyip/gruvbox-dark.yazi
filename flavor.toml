@@ -185,11 +185,10 @@ hovered = { underline = true }
 # : Help {{{
 
 [help]
-on      = { fg = "#83a598" }
-run     = { fg = "#d3869b" }
-desc    = {}
+border   = { fg = "#458588" }
+chord   = { fg = "#83a598" }
+action = {}
 hovered = { reversed = true, bold = true }
-footer  = { fg = "#3c3836", bg = "#a89984" }
 
 # : }}}
 
